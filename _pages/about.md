@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title:
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 
 ## Hi, I'm Ethan Gates
 
-I currently work as the Moving Image Archiving and Preservation Technician for the Department of Cinema Studies at New York University. What that means is, I'm responsible for maintenance and use of the lab spaces and equipment employed by the Cinema Studies department's two-year Master's degree program in Moving Image Archiving and Preservation (of which I am also a graduate - class of 2015). I make sure our students have hands-on access and training on both legacy audiovisual equipment and the latest in media preservation technology.
+I currently work as the Moving Image Archiving and Preservation Technician for the Department of Cinema Studies at New York University. I'm responsible for maintenance and use of the lab spaces and equipment employed by the department's two-year Master's degree program in Moving Image Archiving and Preservation (of which I am also a graduate - class of 2015). I make sure our students have hands-on access and training on both legacy audiovisual equipment and the latest in media preservation technology.
 
 More broadly, I am passionate about professional and community education around audiovisual tech. I like to learn _how_ tech works - whether that means taking apart a Betacam deck or tinkering in a command line interface - and share what I've found out with others. That's come to mean leading workshops, writing blog posts, volunteering with community archiving efforts like [XFR Collective](https://xfrcollective.wordpress.com), and a whole lot of networking with some cool people across the globe.
 

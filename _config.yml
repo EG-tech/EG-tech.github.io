@@ -99,7 +99,7 @@ author:
   lastfm           :
   linkedin         :
   mastodon         : "octodon.social/@The_BFOOL"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -171,7 +171,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  workshops:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -205,10 +205,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _workshops
   - scope:
       path: ""
-      type: teaching
+      type: workshops
     values:
       layout: single
       author_profile: true
