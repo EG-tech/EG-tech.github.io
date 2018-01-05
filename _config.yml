@@ -98,7 +98,6 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  mastodon         : "octodon.social/@The_BFOOL"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -111,7 +110,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  wordpress        : "patchbaytech.wordpress.com"
 
 
 # Reading Files
@@ -305,3 +303,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#Skin for theme
+minimal_mistakes_skin: "air"
