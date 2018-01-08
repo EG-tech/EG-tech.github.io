@@ -208,7 +208,7 @@ defaults:
   # _workshops
   - scope:
       path: ""
-      type: workshops
+      type: teaching
     values:
       layout: single
       author_profile: true
