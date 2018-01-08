@@ -6,8 +6,6 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-theme                    : "minimal-mistakes-jekyll"
-skin                     : "air"
 locale                   : "en-US"
 title                    : "Ethan Gates"
 title_separator          : "-"
@@ -208,7 +206,7 @@ defaults:
   # _workshops
   - scope:
       path: ""
-      type: teaching
+      type: workshops
     values:
       layout: single
       author_profile: true
