@@ -1,0 +1,117 @@
+---
+layout: post
+title: Windows Subsystem for Linux - What's the Deal?
+date: 2016-10-19 12:11:48.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Digital Preservation
+- Software
+tags:
+- Archivematica
+- BagIt
+- Bash on Ubuntu on Windows
+- ddrescue
+- ffmpeg
+- imagemagick
+- md5deep
+- Mediaconch
+- Mediainfo
+- Python
+- rsync
+- The Sleuth Kit
+- Windows 10
+- Windows Subsystem for Linux
+meta:
+  _g_feedback_shortcode: "[contact-field label='Name' type='name' required='1'/][contact-field
+    label='Email' type='email' required='1'/][contact-field label='Website' type='url'/][contact-field
+    label='Comment' type='textarea' required='1'/]"
+  _thumbnail_id: '1679'
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+  _publicize_job_id: '28014132003'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:5947049;s:55:"https://twitter.com/The_BFOOL/status/788774692790251520";}}
+  _publicize_done_14287373: '1'
+  _wpas_done_5947049: '1'
+  publicize_twitter_user: The_BFOOL
+author:
+  login: bestfilmsofourlives
+  email: e.gates42@gmail.com
+  display_name: Ethan
+  first_name: ''
+  last_name: ''
+---
+<p>This past summer, Microsoft released its "Anniversary Update" for Windows 10. It included a lot of the business-as-usual sort of operating system updates: enhanced security, improved integration with mobile devices, updates to Microsoft's "virtual assistant" Cortana (who is totally not named after a video game AI character who went rampant and is currently trying to destroy all biological life in the known universe, because what company would possibly tempt fate like that?)</p>
+<p>[caption id="attachment_1681" align="aligncenter" width="535"]<img class="  wp-image-1681 aligncenter" src="{{ site.baseurl }}/images/halo-4-cortana-rampant.jpg" alt="halo-4-cortana-rampant" width="535" height="302" /> "NO I WILL NOT OPEN ANOTHER INCOGNITO WINDOW FOR YOU, FILTH"[/caption]</p>
+<p>But possibly the biggest under-the-radar change to Windows 10 was the introduction of Bash on Ubuntu on Windows. Microsoft partnered with Canonical, the company that develops the popular Linux operating system distribution Ubuntu, to create a full-fledged Linux/Ubuntu subsystem (essentially Ubuntu 14.04 LTS) <em>inside of Windows 10</em>. That's like a turducken of operating systems.</p>
+<p>[caption id="attachment_1696" align="aligncenter" width="557"]<img class="  wp-image-1696 aligncenter" src="{{ site.baseurl }}/images/foo_ck_turducken_1223.jpeg" alt="foo_ck_turducken_1223" width="557" height="325" /> Which layer is the NT kernel, though?[/caption]</p>
+<p>What does that mean, practically speaking? For years, if you were interested in command-line control of your Windows computer, you could use Powershell or the Command Prompt - the same basic command-line system that Microsoft has been using since the pre-Windows days of MS-DOS. Contrast that to Unix-based systems like Mac OSX and Ubuntu, which by default use an input system called the Bash shell - the thing you see any time you open the application Terminal.</p>
+<p>[gallery ids="1705,1692" type="slideshow"]</p>
+<p>&nbsp;</p>
+<p>The Bash shell is very popular with developers and programmers. Why? A variety of reasons. It's an open-source system versus Microsoft's proprietary interface, for one. It has some enhanced security features to keep users from completely breaking their operating system with an errant command (if you're a novice command-line user, that's why you use the "sudo" command sometimes in Terminal but never in Command Prompt - Windows just assumes everyone using Command Prompt is a "super user" with access to root directories, whereas Mac OSX/Linux prefers to at least check that you still remember your administrative password before deleting your hard drive from practical existence). The Bash scripting language handles batch processing (working with a whole bunch of files at once), scheduling commands to be executed at future times, and other automated tasks a little more intuitively. And, finally, Unix systems have a lot more built-in utility tools that make software development and navigating file systems more elegant (to be clear, these utility applications are not technically part of the Bash shell - they are built into the Mac OSX/Linux operating system itself and accessed <em>via</em> the Bash shell).</p>
+<p>Bringing in a Linux subsystem and Bash shell to Windows is a pretty bold move to try and win back developers to Microsoft's platform. There have been some attempts before to build Linux-like environments for Windows to port Mac/Linux software - Cygwin was probably the most notable - but no method I ever tried, at least, felt as intuitive to a Mac/Linux user as Bash on Ubuntu on Windows does.</p>
+<p>[caption id="attachment_1687" align="aligncenter" width="553"]<img class="  wp-image-1687 aligncenter" src="{{ site.baseurl }}/images/cygwinsetup.gif" alt="cygwinsetup" width="553" height="388" /> what even are you[/caption]</p>
+<p>Considering the increasing attention on open-source software development and command-line implementation in the archival community, I was very curious as to whether Bash on Ubuntu on Windows could start bridging the divide between Mac and Windows systems in archives and libraries. The problem of incompatible software and the difference in command-line language between Terminal and Command Prompt isn't <a href="http://www.yolinux.com/TUTORIALS/unix_for_dos_users.html" target="_blank">insurmountable</a>, but it's not exactly convenient. What if we could get all users on the same page with the software they use AND how they use them - regardless of operating system???</p>
+<p>OK. That's still a pipe dream. I said earlier that the Windows Subsystem for Linux (yes that's what it's technically called even though that sounds like the exact opposite of what it should be) was "full-fledged" - buuuuuut I kinda lied. Microsoft intends the WSL to be a platform for software development, not implementation. You're <em>supposed</em> to use it to build your applications, but not necessarily actually deploy it into a Windows-based workflow. To that end, there are some giant glaring holes from just a pure Ubuntu installation: using Bash on Ubuntu on Windows, you can't deploy any Linux software with a graphical user interface (GUI) (for example, the common built-in Linux text editing utility program gedit doesn't work - but nano, which allows you to text edit from within the Bash terminal window itself, does). It's CLI or bust. Any web-based application is also a big no-no, so you're not going to be able to sneakily run a Windows machine as a server using the Linux subsystem any time soon.</p>
+<p><em>Edit</em>: Oh and the other giant glaring thing I forgot to mention the first time around - <a href="https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/suggestions/13355724-unable-to-access-usb-devices-from-bash" target="_blank">there's no external drive support yet</a>. So the WSL can't access removable media on USB or optical disc mounted on the Windows file system - only fixed drives. So disc imaging software, while it technically "works", can only work with data already moved to your Windows system.</p>
+<p>But with all those caveats in mind... who cares what Microsoft says is <em>supposed</em> to happen? What does it actually <em>do</em>? What works, and what doesn't? I went through a laundry list of command-line tools that have been used or taught the past few years in our MIAP courses (primarily Video Preservation, Digital Preservation and Handling Complex Media), plus a few tools that I've personally found useful. First, I wanted to see if they installed at all - and if they did, I would try a couple of that program's most basic commands, hardly anything in the way of flags or options. I wasn't really trying to stress-test these applications, just see if they could indeed install and access the Windows file system in a manner familiar to Mac/Linux users.</p>
+<p>[caption id="attachment_1724" align="aligncenter" width="636"]<img class="  wp-image-1724 aligncenter" src="{{ site.baseurl }}/images/bash.png" alt="bash" width="636" height="417" /> *Hello Bash my only friend / I've come to 'cat' with you again*[/caption]</p>
+<p>Before I start the run-down, a note on using Bash on Ubuntu on Windows yourself, if interested. <a href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide" target="_blank">Here are the instructions</a> for installing and launching the Windows Subsystem for Linux - since the whole thing is technically still in beta, you'll need to activate "developer" mode. Once installed and launched, ALL of these applications will <span style="text-decoration:underline;">only</span> work through the Bash terminal window - you can <span style="text-decoration:underline;">not</span> access the Linux subsystem, and all software installed thereon, from the traditional Windows Command Prompt. (It goes the other way too - you can't activate your Windows applications from the Bash shell. This is all about accessing and working with the same files from your preferred command-line environment.) And once again, the actual Ubuntu version in this subsystem is 14.04 LTS - which is <span style="text-decoration:underline;">not</span> the latest stable version of that operating system. So any software designed only to work with Ubuntu 16.04 or the very latest 16.10 isn't going to work in the Windows subsystem.</p>
+<p>Once you're in a Bash terminal, you can access all your files stored within the Windows file system by navigating into the "/mnt/" directory:</p>
+<blockquote><p>$ cd /mnt/</p></blockquote>
+<p>You should see different letters within this directory according to how many drives you have mounted in your computer, and their assigned letters/paths. For instance, for many Windows users all your files will probably be contained within something like:</p>
+<p>/mnt/c/Users/your_user_name/Downloads or</p>
+<p>/mnt/c/Users/your_user_name/Desktop , etc. etc.</p>
+<p>And one last caveat: dragging and dropping a file into the Bash terminal to quickly get the full file path doesn't work. It will give you a Command Prompt file path (e.g. "C:\Users\username\Downloads\file.pdf") that the Bash shell can't read. You're going to have to manually type out the full file path yourself (tabbing over to automatically fill in directory/file names does still work, at least).</p>
+<p>Let's get to it!</p>
+<h3><strong><span style="text-decoration:underline;">Programs That Install Via Apt-Get:</span></strong></h3>
+<ul>
+<li>bagit-java</li>
+<li>bagit-python</li>
+<li>cdrdao</li>
+<li>ClamAV</li>
+<li>ddrescue (install w/package name "gddrescue", execute w/ command "ddrescue")</li>
+<li>ffmpeg (but NOT ffplay)</li>
+<li>git</li>
+<li>imagemagick</li>
+<li>md5deep</li>
+<li>mediainfo</li>
+<li>MKVToolNix</li>
+<li>Python/Python3/pip</li>
+<li>Ruby/RubyGems</li>
+<li>rsync</li>
+<li>tree</li>
+</ul>
+<p>Installing via Ubuntu's "apt-get" utility is by far the easiest and most desirable method of getting applications installed on your Linux subsystem. It's a package manager that works the same way as Homebrew on Mac, for those used to that system: just execute</p>
+<blockquote><p>$ [sudo] apt-get install nameofpackage</p></blockquote>
+<p>and apt-get will install the desired program, including all necessary dependencies (any software libraries or other software utilities necessary to make the program run). As you can see, the WSL can handle a variety of useful applications: disk imaging (cdrdao, ddrescue), transcoders (ffmpeg, imagemagick), virus scanning (ClamAV), file system and metadata utilities (mediainfo, tree), hash/checksum generation (md5deep).</p>
+<p>[caption id="attachment_1713" align="aligncenter" width="599"]<img class="  wp-image-1713 aligncenter" src="{{ site.baseurl }}/images/mediainfo.png" alt="mediainfo" width="599" height="357" /> Windows 10![/caption]</p>
+<p>You can also get distributions of programming languages like Python and Ruby and use their own package managers (pip, RubyGems) to install further packages/libraries/programs. I tried this out with Python by installing bagit-python (my preferred flavor of BagIt - see this <a href="https://patchbaytech.wordpress.com/2016/09/20/using-bagit/">previous post</a> for difference between bagit-python and the bagit-java program you get by just running "apt-get bagit"), and with Ruby by installing the Nokogiri library and running <a href="http://ablwr.github.io/blog/2016/09/21/lorena-parsing-xml-into-csv-with-ruby/" target="_blank">through this little Ruby exercise</a> by Ashley Blewer. (I'd tried it before on Mac OSX but guess what, works on Windows through the WSL too!)</p>
+<p>A couple things to note: one, if you're trying to install the Ubuntu version of ddrescue, there's confusingly a couple different packages named the same thing, and serve the same purpose. There's a nice little rundown of how that happened and how to make sure you're installing and executing exactly the program you want <a href="http://askubuntu.com/questions/211578/whats-the-difference-between-ddrescue-gddrescue-and-dd-rescue" target="_blank">on the Ubuntu forums</a>.</p>
+<p>Also, while ffmpeg's transcoding and metadata-gathering features (ffprobe) work fine, its built-in media playback command (ffplay) will <span style="text-decoration:underline;">not</span>, because of the aforementioned issue with GUIs (it has to do with X11, the window system that Unix systems use for graphical display, but never mind that for now). Actually, it sort of depends on how you define "work", because while ffplay won't properly play back video, it will generate some fucking awesome text art for you in the Bash terminal:</p>
+<p>https://www.youtube.com/watch?v=pkGY3khdjLI&amp;feature=youtu.be</p>
+<p>&nbsp;</p>
+<h3><strong><span style="text-decoration:underline;">Programs That Require More Complicated Installation:</span></strong></h3>
+<ul>
+<li>bulk_extractor (requires legacy JDK)</li>
+<li>exiftool</li>
+<li>Fslint</li>
+<li>mediaconch</li>
+<li>The Sleuth Kit tools</li>
+</ul>
+<p>These applications can't be installed via an apt-get package, but you can still get them running with a little extra work, thanks to other Linux features such as dpkg. Dpkg is another package management program - this one comes from Debian, a Linux operating system of which Ubuntu is a direct (more user-friendly) derivative. You can use dpkg to install Debian (.deb) packages (like the CLI of <a href="https://mediaarea.net/MediaConch/downloads/ubuntu.html" target="_blank">Mediaconch</a>), although take note that unlike apt-get, dpkg does not automatically install dependencies - so you might need to go out and find other libraries/packages to install via apt-get or dpkg before your desired program actually starts working (for Mediaconch, for instance, you should just apt-get install Mediainfo first to make sure you have the libmediainfo library already in place).</p>
+<p>The WSL does also have the autocompile and automake utilities of full Linux distributions, so you can also use those to get packages like The Sleuth Kit (a bunch of digital forensics tools) or Fslint (a duplicate file finder) running. Best solution is to follow whatever Linux installation documentation there is for each of these programs - if you have questions about troubleshooting specific programs, let me know and I'll try to walk you through my process.</p>
+<p><img class="  wp-image-1721 aligncenter" src="{{ site.baseurl }}/images/fslint.png" alt="fslint" width="609" height="367" /></p>
+<p>&nbsp;</p>
+<h3><strong><span style="text-decoration:underline;">Programs That Don't Work/Install...Yet:</span></strong></h3>
+<ul>
+<li>Archivematica</li>
+<li>Guymager</li>
+<li>vrecord</li>
+</ul>
+<p>I had no expectation that these programs would work given the stated GUI and web-based limitations of the WSL, but this is just to confirm that as far as I can tell, there's no way to get them running. Guymager has the obvious GUI/X11 issue (plus the inability to recognize external devices, anyway, and the general dysfunction of the /dev/ directory). The vrecord team hasn't successfully installed on Linux yet, and the WSL would run into the GUI issue even if they do release a Linux version. And web applications definitely aren't my strong suit, but in the <a href="https://www.archivematica.org/en/docs/archivematica-1.5/admin-manual/installation/installation/" target="_blank">long process</a> of attempting an Archivematica installation, the WSL seemed to have separate issues with Apache, uWSGI and NGINX. That's a lot of troubleshooting to likely no end, so best to probably leave that one aside.</p>
+<p>That's about all for now - I'm curious if anyone else has been testing the WSL, or has any thoughts about its possible usefulness in bridging compatibility concerns. Is there any reason we shouldn't just be teaching <em>everyone</em> Bash commands now??</p>
+<p><em>Update (10/20):</em> So the very day that I post this, Microsoft released a pretty major <a href="https://msdn.microsoft.com/en-us/commandline/wsl/release_notes#build-14951" target="_blank">update</a> to the WSL, with two major effects: 1) new installations of WSL will now be Ubuntu 16.04 (Xenial), though existing users such as myself will not automatically upgrade from 14.04; and 2) the Windows and Linux command-line interfaces now have cross-compatibility, so you can launch Windows applications from the Bash terminal and Linux applications from Command Prompt or Powershell. Combine that with the comment below from Euan with directions to actually launch Linux applications with GUIs, and there's a whole slew of options to continue exploring here. Look for further posts in the future! This subsystem is clearly way more powerful than Microsoft initially wanted to let on.</p>

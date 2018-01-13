@@ -11,22 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.A. in English and Russian, concentration in Film Studies, Amherst College, 2012
+* M.A. in Moving Image Archiving and Preservation, New York University, 2015
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2015 - present: Moving Image Archiving and Preservation Technician
+  * New York University
+  * Duties included:
+  * Supervisors: Ann Harris, Scott Statland
 
-* Fall 2015: Research Assistant
-  * Github University
+* Summer 2016: Preservation Consultant
+  * The Jewish Museum
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
+
+* Fall 2014: Special Collections Intern
+  * City College of New York Libraries
+  * Duties included:
+  * Supervisor: Prof. Sydney Van Nort
+
+* Summer 2014: Archives and Collection Management Intern
+  * Northeast Historic Film
+  * Duties included:
+  * Supervisor: David Weiss
+
+* Spring 2014: Film & Video Archive Intern
+  * Major League Baseball Productions
+  * Duties included:
+  * Supervisor: Nick Trotta
+
+* Spring 2013: Research Assistant
+  * Amherst College
+  * Duties included:
+  * Supervisor: Prof. William Taubman
+
+* Fall 2012 - Spring 2013: Center for Russian Culture Assistant
+  * Department of Russian, Amherst College
+  * Duties included:
+  * Supervisor: Prof. Stanley Rabinowitz
+
+
+
 Skills
 ======
 * Skill 1
@@ -41,19 +67,19 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Volunteering
 ======
-* Currently signed in to 43 different slack teams
+* Core member of [XFR Collective](https://xfrcollective.wordpress.com), summer 2016-present
