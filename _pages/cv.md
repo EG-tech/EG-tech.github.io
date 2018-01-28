@@ -25,6 +25,7 @@ Work experience
     * Designed series of technical workshops to supplement program curriculum
   * Supervisors: Ann Harris, Scott Statland  
 
+
 * Summer 2016: **Preservation Consultant**, *The Jewish Museum*
   * Duties included:
     * Surveyed inventories, condition assessments and current catalog system for analog audiovisual holdings
@@ -32,11 +33,13 @@ Work experience
     * Presented short- and long-term recommendations for mass digitization and digital repository management
   * Supervisors: Aviva Weintraub, Jaron Gandelman  
 
+
 * Fall 2014: **Special Collections Intern**, *City College of New York Libraries*
   * Duties included:
     * Cataloged a collection of over 800 videotapes in Archivist's Toolkit
     * Submitted proposal for full digitization of the collection, including vendor recommendations and costs
   * Supervisor: Prof. Sydney Van Nort  
+
 
 * Summer 2014: **Archives and Collection Management Intern**, *Northeast Historic Film*
   * Duties included:
@@ -45,16 +48,19 @@ Work experience
     * 16mm film inspection and repair
   * Supervisor: David Weiss  
 
+
 * Spring 2014: **Film & Video Archive Intern**, *Major League Baseball Productions*
   * Duties included:
     * Inspected a 16mm film collection for condition and descriptive content
     * Performed audio cassette digitization
   * Supervisor: Nick Trotta  
 
+
 * Spring 2013: **Research Assistant**, *Department of Political Science, Amherst College*
   * Duties included:
     * Compiled bibliography/citations in Zotero
   * Supervisor: Prof. William Taubman  
+
 
 * Fall 2012 - Spring 2013: **Center for Russian Culture Assistant**, *Department of Russian, Amherst College*
   * Duties included:
@@ -63,6 +69,7 @@ Work experience
     * Coordinated and provided reference assistance for visiting scholars
     * Curated rotating public display of collection holdings
   * Supervisor: Prof. Stanley Rabinowitz  
+
 
 
 
@@ -95,11 +102,13 @@ Skills
 * Media post-production (Adobe Creative Suite, Final Cut Studio, ffmpeg, DIAMANT Dustbuster+)  
 
 
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>  
+
 
 Workshops
 ======
@@ -107,11 +116,13 @@ Workshops
     {% include archive-single-cv.html %}
   {% endfor %}</ul>  
 
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>  
+  
 
 
 Volunteering
