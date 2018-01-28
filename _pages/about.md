@@ -14,4 +14,4 @@ More broadly, I am passionate about professional and community education around 
 
 My undergraduate background at Amherst College ('12) was in film studies and Russian language/literature, which will hopefully explain the errant Soviet cinema references you may encounter. I still like to indulge my scholarly bent - I've occasionally published film reviews and am still actively pursuing research related to my Master's thesis on the early history of film preservation in the Soviet Union.
 
-Please feel free to peruse my [full CV](/cv/), look over some of my [workshop materials](/workshops/), [talks](/talks/), and [published articles](/publications/), or check out my professional blog, [The Patch Bay](https://patchbaytech.wordpress.com). Thanks for visiting, and get in touch any time!
+Please feel free to peruse my [full CV](/cv/), look over some of my [workshop materials](/workshops/), [talks](/talks/), and [published articles](/publications/), or check out my professional blog, [The Patch Bay](https://patchbay.tech). Thanks for visiting, and get in touch any time!
