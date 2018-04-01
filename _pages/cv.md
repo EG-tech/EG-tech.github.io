@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title:
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,11 +8,14 @@ redirect_from:
 ---
 
 {% include base_path %}
+<br>
 
 Education
 ======
 * B.A. in English and Russian, concentration in Film Studies, *Amherst College*, 2012
 * M.A. in Moving Image Archiving and Preservation, *New York University*, 2015
+
+<br>
 
 Work experience
 ======
@@ -70,8 +73,7 @@ Work experience
     * Curated rotating public display of collection holdings
   * Supervisor: Prof. Stanley Rabinowitz  
 
-
-
+<br>
 
 Skills
 ======
@@ -101,7 +103,7 @@ Skills
   * building web sites with GitHub Pages/Jekyll
 * Media post-production (Adobe Creative Suite, Final Cut Studio, ffmpeg, DIAMANT Dustbuster+)  
 
-
+<br>
 
 Talks
 ======
@@ -109,6 +111,7 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>  
 
+<br>
 
 Workshops
 ======
@@ -116,14 +119,15 @@ Workshops
     {% include archive-single-cv.html %}
   {% endfor %}</ul>  
 
+<br>
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>  
-  
 
+<br>
 
 Volunteering
 ======
