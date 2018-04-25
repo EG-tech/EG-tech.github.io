@@ -19,7 +19,7 @@ Education
 
 Work experience
 ======
-* November 2015 - present: **Moving Image Archiving and Preservation Technician**, *New York University*
+* November 2015 - June 2018: **Moving Image Archiving and Preservation Technician**, *New York University*
   * Duties included:
     * Coordinated use of department's archival labs and equipment
     * Troubleshot archival equipment and workflows, coordinated repairs and purchasing as needed
@@ -131,4 +131,6 @@ Publications
 
 Volunteering
 ======
-* Core member of [**_XFR Collective_**](https://xfrcollective.wordpress.com), summer 2016-present
+* Member of the Association of Moving Image Archivists Open Source Committee; creator and co-maintainer of [The Cable Bible](https://amiaopensource.github.io/cable-bible)
+
+* Core member of [**_XFR Collective_**](https://xfrcollective.wordpress.com), summer 2016-May 2018
