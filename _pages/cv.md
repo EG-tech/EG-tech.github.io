@@ -36,6 +36,12 @@ Work experience
     * Presented short- and long-term recommendations for mass digitization and digital repository management
   * Supervisors: Aviva Weintraub, Jaron Gandelman  
 
+* Fall 2015: **Preservation Consultant**, *BB Optics*
+  * Duties included:
+    * Conducted physical assessment of a filmmaker’s Super 8 film collection.
+    * Provided the filmmaker with a report on short- and long-term measures for digitization and both physical and digital preservation of the collection’s assets.
+  * Supervisors: Bill Brand
+
 
 * Fall 2014: **Special Collections Intern**, *City College of New York Libraries*
   * Duties included:
