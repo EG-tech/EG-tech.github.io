@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Ethan Gates, and I currently work as the Moving Image Archiving and Preservation Technician for the Department of Cinema Studies at New York University. I'm responsible for maintenance and use of the lab spaces and equipment employed by the department's two-year Master's degree program in Moving Image Archiving and Preservation (of which I am also a graduate - class of 2015). I make sure our students have hands-on access and training on both legacy audiovisual equipment and the latest in media preservation technology.
+My name is Ethan Gates, and I currently live and freelance in Hartford, Connecticut. For the past three years I worked as the Moving Image Archiving and Preservation Technician for the Department of Cinema Studies at New York University. I was responsible for maintenance and use of the lab spaces and equipment employed by the department's two-year Master's degree program in Moving Image Archiving and Preservation (of which I am also a graduate, class of 2015).
 
 More broadly, I am passionate about professional and community education around audiovisual tech. I like to learn _how_ tech works - whether that means taking apart a Betacam deck or tinkering in a command line interface - and share what I've found out with others. That's come to mean leading workshops, writing blog posts, volunteering with community archiving efforts like [XFR Collective](https://xfrcollective.wordpress.com), and a whole lot of networking with some cool people across the globe.
 
