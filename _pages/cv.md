@@ -107,7 +107,11 @@ Skills
 * GitHub
   * git
   * building web sites with GitHub Pages/Jekyll
-* Media post-production (Adobe Creative Suite, Final Cut Studio, ffmpeg, DIAMANT Dustbuster+)  
+* Media post-production
+  * Adobe Creative Suite
+  * Final Cut Studio
+  * ffmpeg
+  * DIAMANT Dustbuster+
 
 <br>
 
