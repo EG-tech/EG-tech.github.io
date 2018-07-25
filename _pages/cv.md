@@ -49,6 +49,13 @@ Work experience
   * Supervisors: Bill Brand
 
 
+* Fall 2013 - Fall 2015: **Audiovisual Assistant**, *New York University Department of Cinema Studies*
+  * Duties included:
+    * Carried out inspection, repair and digitization of 16mm film and audio cassette collections in the department's Film Study Center archive.
+    * Cataloged new acquisitions, derivative files and preservation actions in FileMaker Pro database.
+    * Assisted professors and students with classroom A/V setup and projection (digital and 16mm).
+
+
 * Fall 2014: **Special Collections Intern**, *City College of New York Libraries*
   * Duties included:
     * Cataloged a collection of over 800 videotapes in Archivist's Toolkit
