@@ -54,6 +54,7 @@ Work experience
     * Carried out inspection, repair and digitization of 16mm film and audio cassette collections in the department's Film Study Center archive.
     * Cataloged new acquisitions, derivative files and preservation actions in FileMaker Pro database.
     * Assisted professors and students with classroom A/V setup and projection (digital and 16mm).
+  * Supervisor: Ann Harris
 
 
 * Fall 2014: **Special Collections Intern**, *City College of New York Libraries*
