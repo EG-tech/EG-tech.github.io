@@ -19,6 +19,11 @@ Education
 
 Work experience
 ======
+* August 2017 - present: **Freelance Workshop Leader**, *Metropolitan New York Library Council*
+  * Duties include:
+    * Designing and leading occasional workshops for library and information professionals on topics of digital literacy and audiovisual archiving, including magnetic media digitization and using GitHub.
+
+
 * November 2015 - June 2018: **Moving Image Archiving and Preservation Technician**, *New York University*
   * Duties included:
     * Coordinated use of department's archival labs and equipment
@@ -35,6 +40,7 @@ Work experience
     * Summarized current professional best practices for digitization and digital preservation
     * Presented short- and long-term recommendations for mass digitization and digital repository management
   * Supervisors: Aviva Weintraub, Jaron Gandelman  
+
 
 * Fall 2015: **Preservation Consultant**, *BB Optics*
   * Duties included:
@@ -104,6 +110,7 @@ Skills
 * Film handling and repair
 * Audiovisual collection assessment
 * Bash scripting
+* Operating sytems: macOS, Windows, Linux
 * GitHub
   * git
   * building web sites with GitHub Pages/Jekyll
@@ -112,6 +119,10 @@ Skills
   * Final Cut Studio
   * ffmpeg
   * DIAMANT Dustbuster+
+* Office productivity suites
+  * Microsoft Office suite
+  * LibreOffice
+  * G Suite (Google)
 
 <br>
 
@@ -141,6 +152,8 @@ Publications
 
 Volunteering
 ======
+* Contributor for [**_Women Film Pioneers Project_**](https://wfpp.cdrs.columbia.edu/), currently conducting research for a biographical profile of silent-era Soviet filmmaker Vera Stroyeva.
+
 * Member of the Association of Moving Image Archivists Open Source Committee; creator and co-maintainer of [The Cable Bible](https://amiaopensource.github.io/cable-bible)
 
 * Core member of [**_XFR Collective_**](https://xfrcollective.wordpress.com), summer 2016-May 2018
