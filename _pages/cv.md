@@ -19,7 +19,14 @@ Education
 
 Work experience
 ======
-* August 2017 - present: **Freelance Workshop Leader**, *Metropolitan New York Library Council*
+* October 2018 - present : **Software Preservation Analyst**, *Yale University Libraries*
+  * Duties include:
+    * Configuring and troubleshooting software installations within Yale and the EaaSI network's instances of Emulation as a Service.
+    * Developing training materials and resources for EaaSI members and digital archivists.
+  * Supervisor: Seth Anderson
+
+
+* August 2017 - September 2018: **Freelance Workshop Leader**, *Metropolitan New York Library Council*
   * Duties include:
     * Designing and leading occasional workshops for library and information professionals on topics of digital literacy and audiovisual archiving, including magnetic media digitization and using GitHub.
 
