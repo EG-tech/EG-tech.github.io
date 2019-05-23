@@ -23,6 +23,7 @@ Work experience
   * Duties include:
     * Configuring and troubleshooting software installations within Yale and the EaaSI network's instances of Emulation as a Service.
     * Developing training materials and resources for EaaSI members and digital archivists.
+    * Coordinating student configuration team
   * Supervisor: Seth Anderson
 
 
@@ -167,7 +168,7 @@ Publications
 
 Volunteering
 ======
-* Contributor for [**_Women Film Pioneers Project_**](https://wfpp.cdrs.columbia.edu/), currently conducting research for a biographical profile of silent-era Soviet filmmaker Vera Stroyeva.
+* Member, Policy & Procedure Committee of the [Software Preservation Network](https://www.softwarepreservationnetwork.org), April 2019 - present
 
 * Member of the Association of Moving Image Archivists Open Source Committee; creator and co-maintainer of [The Cable Bible](https://amiaopensource.github.io/cable-bible)
 
